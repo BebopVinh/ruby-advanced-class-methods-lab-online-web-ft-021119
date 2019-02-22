@@ -74,8 +74,4 @@ class Song
     false
   end #end of .find_by_name Class Method
 
-  def self.find_or_create_by_name(name)
-    if @@all.include?()
-    end
-  end
 end #end of Class
