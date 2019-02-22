@@ -56,7 +56,6 @@ class Song
 
   def self.new_from_filename(filename)
     file_ary = filename.split(/[-.]/)
-    # binding.pry
     song = self.create_by_name(file_ary[1].strip!)
     song.artist_name = file_ary[0].strip!
     song
