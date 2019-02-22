@@ -70,8 +70,6 @@ class Song
 
   def self.destroy_all
     @@all.clear
-
-    false
-  end #end of .find_by_name Class Method
+  end
 
 end #end of Class
