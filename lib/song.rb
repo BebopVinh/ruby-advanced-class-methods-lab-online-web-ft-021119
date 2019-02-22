@@ -34,7 +34,6 @@ class Song
     @@all.each do |index|
       return index if index.name == name
     end
-<<<<<<< HEAD
     nil
   end #end of .find_by_name Class Method
 
@@ -67,13 +66,12 @@ class Song
 
   def self.destroy_all
     @@all.clear
-=======
+
     false
   end #end of .find_by_name Class Method
 
   def self.find_or_create_by_name(name)
     if @@all.include?()
     end
->>>>>>> d93dbc2a71f6a66a00d7c554a0a8f5ba93d4a1a0
   end
 end #end of Class
